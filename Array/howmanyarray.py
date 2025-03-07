@@ -10,5 +10,5 @@ def how_many_occurance(arr, target):
     return counter
 
 sample = [1,3,73,5,9,8,5,1]
-target = 1
+target = 5
 print(f"the amount of times the target: {target} occures in this array is {how_many_occurance(sample, target)}")
