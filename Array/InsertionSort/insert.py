@@ -15,7 +15,7 @@ def insert(list_a):
 
             print(f"  List after swap: {list_a}")
 
-        print(f"Placed {valuetosort} at the correct position: {list_a}\n")
+        print(f"Placed the value to sort {valuetosort} at the correct position: {list_a}\n")
 
     print(f"Sorted list: {list_a}")
     return list_a
