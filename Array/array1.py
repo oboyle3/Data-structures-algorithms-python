@@ -8,8 +8,10 @@ my_list.append(6)
 def function(arr):
     n = len(my_list)
     for i in range(n):
-        if arr[i] == 3:
-            print(f"hello world")
-    
+        if arr[i] == 7:
+            x= "hello world"
+            print(f"we found a 7")
+    return arr
 
 print(f"the result {function(my_list)}")
+function(my_list)
